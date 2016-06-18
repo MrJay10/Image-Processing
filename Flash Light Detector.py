@@ -6,7 +6,7 @@ img = cam.getImage() 	# get a sample image to know the screen size
 display = Display() 	# Creates an object of Display Class
 width, height = img.width, img.height 	# Gets width and height of the Image captured
 screensize = width*height 	# initialize the screen size
-threshold = 200 	# If value of any pixel goes higher than this, it means light/blob is found in the stream
+threshold = 200 	    # If value of any pixel goes higher than this, it means light/blob is found in the stream
 
 
 def onLayer():
